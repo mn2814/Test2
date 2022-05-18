@@ -16,3 +16,5 @@ popt, pcov = curve_fit(model,data[:,0],data[:,1], p0=(1,0.2))
 x = np.linspace(-2,2.9,100)
 plt.plot(x, model(x, *popt))
 plt.show()
+
+addEed()
